@@ -1,0 +1,24 @@
+.nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+
+  padding: 30px;
+
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: row nowrap;
+
+  margin: auto;
+
+  gap: 10px;
+}
+
+.nav-list a.active {
+  border-bottom: 3px solid var(--black);
+  padding-bottom: 5px;
+
+  transition: 0.3 ease-in-out;
+}

@@ -1,0 +1,44 @@
+:root {
+  --blue: #003cff;
+  --gray: #717171;
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ff0000;
+  --light-red: #ffadad;
+  --light-blue: #a5baff;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter/Inter-VariableFont_opszwght.ttf");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+* {
+  border: none;
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  list-style-type: none;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+  color: var(--black);
+}
+
+.container {
+  width: 90%;
+  height: 80%;
+
+  margin: auto;
+}
