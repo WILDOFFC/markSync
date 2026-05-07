@@ -1,0 +1,27 @@
+.account-setting {
+  display: flex;
+  flex-flow: row wrap;
+
+  padding: 10px 15px;
+
+  border: 1px solid var(--blue);
+}
+
+.account-setting__value {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+}
+
+.account-settiing__edit-button {
+  font-size: 16px;
+  font-weight: bold;
+
+  background-color: var(--white);
+  color: var(--blue);
+
+  width: fit-content;
+  height: 100%;
+
+  border-radius: 5px;
+}

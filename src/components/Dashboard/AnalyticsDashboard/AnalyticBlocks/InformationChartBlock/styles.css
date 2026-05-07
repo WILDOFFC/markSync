@@ -1,0 +1,8 @@
+.informational-chart__block {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.informational-chart__name {
+  align-self: center;
+}

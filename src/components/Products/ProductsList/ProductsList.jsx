@@ -1,51 +1,54 @@
 import "./styles.css";
 import ProductCard from "./../ProductCard/ProductCard.jsx";
+import DashboardPanel from "../../Dashboard/DashboardComponents/DashboardPanel/DashboardPanel.jsx";
 
 const ProductsList = () => {
   return (
     <>
-      <ul className="products-list">
-        <li>
-          <ProductCard
-            productPreview={"./../../../assets/media/productPreview.jpg"}
-            productName={"Материнская плата MSI"}
-            productMarketplaces={"Ozon, Wildberries"}
-            productPrice={"11000р"}
-          />
-        </li>
-        <li>
-          <ProductCard
-            productPreview={"./../../../assets/media/productPreview.jpg"}
-            productName={"Материнская плата MSI"}
-            productMarketplaces={"Ozon, Wildberries"}
-            productPrice={"11000р"}
-          />
-        </li>
-        <li>
-          <ProductCard
-            productPreview={"./../../../assets/media/productPreview.jpg"}
-            productName={"Материнская плата MSI"}
-            productMarketplaces={"Ozon, Wildberries"}
-            productPrice={"11000р"}
-          />
-        </li>
-        <li>
-          <ProductCard
-            productPreview={"./../../../assets/media/productPreview.jpg"}
-            productName={"Материнская плата MSI"}
-            productMarketplaces={"Ozon, Wildberries"}
-            productPrice={"11000р"}
-          />
-        </li>
-        <li>
-          <ProductCard
-            productPreview={"./../../../assets/media/productPreview.jpg"}
-            productName={"Материнская плата MSI"}
-            productMarketplaces={"Ozon, Wildberries"}
-            productPrice={"11000р"}
-          />
-        </li>
-      </ul>
+      <DashboardPanel panelHeader={"Товары"}>
+        <ul className="products-list">
+          <li>
+            <ProductCard
+              productPreview={"./../../../assets/media/productPreview.jpg"}
+              productName={"Материнская плата MSI"}
+              productMarketplaces={"Ozon, Wildberries"}
+              productPrice={"11000р"}
+            />
+          </li>
+          <li>
+            <ProductCard
+              productPreview={"./../../../assets/media/productPreview.jpg"}
+              productName={"Материнская плата MSI"}
+              productMarketplaces={"Ozon, Wildberries"}
+              productPrice={"11000р"}
+            />
+          </li>
+          <li>
+            <ProductCard
+              productPreview={"./../../../assets/media/productPreview.jpg"}
+              productName={"Материнская плата MSI"}
+              productMarketplaces={"Ozon, Wildberries"}
+              productPrice={"11000р"}
+            />
+          </li>
+          <li>
+            <ProductCard
+              productPreview={"./../../../assets/media/productPreview.jpg"}
+              productName={"Материнская плата MSI"}
+              productMarketplaces={"Ozon, Wildberries"}
+              productPrice={"11000р"}
+            />
+          </li>
+          <li>
+            <ProductCard
+              productPreview={"./../../../assets/media/productPreview.jpg"}
+              productName={"Материнская плата MSI"}
+              productMarketplaces={"Ozon, Wildberries"}
+              productPrice={"11000р"}
+            />
+          </li>
+        </ul>
+      </DashboardPanel>
     </>
   );
 };

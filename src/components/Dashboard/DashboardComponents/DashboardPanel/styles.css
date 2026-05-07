@@ -1,0 +1,8 @@
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  margin: 33px;
+
+  gap: 20px;
+}

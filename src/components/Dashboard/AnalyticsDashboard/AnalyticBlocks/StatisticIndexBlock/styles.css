@@ -1,0 +1,29 @@
+.statistic-index__block {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  width: fit-content;
+
+  padding: 5px;
+}
+
+.statistic-name {
+  font-size: 18px;
+  color: var(--blue);
+  padding: 10px;
+}
+
+.statistic-index {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.statistic-block__content {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}

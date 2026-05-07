@@ -1,32 +1,14 @@
-.dashboard-panel {
-  border: 1px solid var(--blue);
-  border-radius: 20px;
-}
-
-.analytics-block {
-  display: flex;
-}
-
-.panel-grid {
+.statistic-charts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
-  margin: 33px;
-
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
-.panel-header {
-  font-size: 24px;
-  font-weight: bold;
-
-  border: 1px solid var(--blue);
-  border-radius: 20px;
-
-  width: fit-content;
-
-  color: var(--blue);
-
-  padding: 10px 20px;
-  margin: 20px;
+.informational-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-row: 2;
+}
+.show-more {
+  grid-row: 2;
+  align-self: end;
 }

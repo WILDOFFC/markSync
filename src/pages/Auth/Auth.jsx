@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import Form from "../../components/Form/Form.jsx";
+import AuthForm from "./../../components/Form/AuthForm/AuthForm.jsx";
 
 const Auth = () => {
   const { action } = useParams();
@@ -21,9 +21,9 @@ const Auth = () => {
   const config = formConfig[action] || formConfig["login"];
   return (
     <>
-      <Form
+      <AuthForm
         formTitle={config.formTitle}
-        submitAction={config.submitAction}
+        submitAction={action}
         checkboxLabel={config.checkboxLabel}
       />
     </>

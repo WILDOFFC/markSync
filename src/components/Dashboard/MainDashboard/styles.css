@@ -1,32 +1,3 @@
-.dashboard-panel {
-  border: 1px solid var(--blue);
-  border-radius: 20px;
-}
-
-.panel-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
-  margin: 33px;
-
-  gap: 20px;
-}
-
-.panel-header {
-  font-size: 24px;
-  font-weight: bold;
-
-  border: 1px solid var(--blue);
-  border-radius: 20px;
-
-  width: fit-content;
-
-  color: var(--blue);
-
-  padding: 10px 20px;
-  margin: 20px;
-}
-
 .connections-block {
   display: flex;
   flex-direction: column !important;
