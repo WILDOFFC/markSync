@@ -47,3 +47,8 @@
 
   border-radius: 15px;
 }
+
+.product-preview__image {
+  object-fit: fill;
+  width: 70%;
+}

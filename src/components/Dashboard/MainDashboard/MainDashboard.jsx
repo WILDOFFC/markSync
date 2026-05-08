@@ -7,13 +7,25 @@ import OzonLogo from "./../../../assets/media/logo/ozon.png";
 import WilberriesLogo from "./../../../assets/media/logo/wildberries.png";
 import YaMarket from "./../../../assets/media/logo/yandexmarket.png";
 import DashboardPanel from "../DashboardComponents/DashboardPanel/DashboardPanel.jsx";
+import StatisticIndexBlock from "../AnalyticsDashboard/AnalyticBlocks/StatisticIndexBlock/StatisticIndexBlock.jsx";
 
 const MainDashboard = () => {
+  const data = [
+    { name: "Page A", parameter: 150 },
+    { name: "Page B", parameter: 210 },
+    { name: "Page C", parameter: 220 },
+    { name: "Page D", parameter: 270 },
+    { name: "Page E", parameter: 190 },
+    { name: "Page F", parameter: 220 },
+  ];
   return (
     <>
       <DashboardPanel panelHeader={"Панель управления"}>
         <Link to="/analytics">
-          <div className="analytics-block dashboard-button">dsadsadas</div>
+          <div className="analytics-block dashboard-block">
+            <div className="block-name">Аналитика</div>
+            <StatisticIndexBlock data={data} />
+          </div>
         </Link>
         <div className="buttons-block">
           <DashboardButton
@@ -45,7 +57,6 @@ const MainDashboard = () => {
           <div className="block-name">Рекомендации</div>
           <ul className="recommendations-list">
             <li>
-              {" "}
               <div className="recommendations-message">
                 Ваши рекомендации будут отображаться здесь
               </div>
@@ -65,7 +76,15 @@ const MainDashboard = () => {
         <div className="notifications-block dashboard-block">
           <div className="block-name">Уведомления</div>
           <ul className="notification-list">
-            <div className="notification">Уведомление №1</div>
+            <li>
+              <div className="notification">Уведомление №1</div>
+            </li>
+            <li>
+              <div className="notification">Уведомление №2</div>
+            </li>
+            <li>
+              <div className="notification">Уведомление №3</div>
+            </li>
           </ul>
         </div>
       </DashboardPanel>

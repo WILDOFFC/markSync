@@ -10,7 +10,11 @@ const ProductCard = ({
     <>
       <div className="product-card">
         <div className="product-preview">
-          <img src={productPreview} alt="Превью товара" />
+          <img
+            src={productPreview}
+            alt="Превью товара"
+            className="product-preview__image"
+          />
         </div>
         <div className="product-name">{productName}</div>
         <div className="product-marketplaces">{productMarketplaces}</div>

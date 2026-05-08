@@ -1,1 +1,14 @@
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 30px;
+  justify-content: space-between;
+}
 
+.auth-links {
+  display: flex !important;
+  justify-self: flex-end;
+  align-self: center;
+
+  gap: 20px;
+}

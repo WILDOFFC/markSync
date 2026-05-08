@@ -5,12 +5,21 @@
   padding: 10px 15px;
 
   border: 1px solid var(--blue);
+  border-radius: 5px;
+
+  margin: 10px;
+
+  align-items: center;
+  width: 35rem;
+  gap: 20px;
 }
 
 .account-setting__value {
   background-color: var(--blue);
+  border: 2px solid var(--blue);
   color: var(--white);
   border-radius: 5px;
+  padding-left: 15px;
 }
 
 .account-settiing__edit-button {
@@ -23,5 +32,9 @@
   width: fit-content;
   height: 100%;
 
-  border-radius: 5px;
+  padding: 7px;
+
+  border-radius: 4px;
+
+  margin-left: 20px;
 }

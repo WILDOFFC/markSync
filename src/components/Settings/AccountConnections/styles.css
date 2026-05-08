@@ -1,0 +1,15 @@
+.connection-panel {
+  align-items: center;
+}
+
+.connection-cards__list {
+  display: flex;
+  flex-flow: row wrap;
+
+  align-self: center;
+  justify-self: center;
+
+  padding: 50px;
+
+  gap: 50px;
+}

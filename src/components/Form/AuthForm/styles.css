@@ -4,6 +4,8 @@
 
   border: 1px solid var(--blue);
   border-radius: 25px;
+
+  margin: 20px;
 }
 
 .auth-wrapper form {
@@ -59,4 +61,17 @@ input[type="submit"] {
 
 input::placeholder {
   color: var(--gray);
+}
+
+.additional-info {
+  justify-self: center;
+  align-self: center;
+
+  margin: auto;
+}
+
+.additional-info .info-link {
+  justify-self: center;
+  align-self: center;
+  text-decoration: underline;
 }

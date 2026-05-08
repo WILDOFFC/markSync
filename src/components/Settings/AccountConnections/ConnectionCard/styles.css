@@ -1,0 +1,28 @@
+.connection-card {
+  display: flex;
+  flex-flow: column wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--blue);
+  border-radius: 15px;
+
+  padding: 60px 40px;
+
+  gap: 50px;
+}
+
+.marketplace-logo {
+  border-radius: 20px;
+  width: 150px;
+}
+
+.link-button {
+  padding: 10px;
+
+  background-color: var(--blue);
+  color: var(--white);
+
+  border-radius: 10px;
+}

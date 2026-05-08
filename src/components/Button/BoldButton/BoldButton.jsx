@@ -4,6 +4,7 @@ const BoldButton = ({
   buttonHeight = "60",
   padding,
   buttonColor = "black",
+  buttonTextColor,
   action,
 }) => {
   const stylesheet = `.bold-button {
@@ -14,6 +15,7 @@ const BoldButton = ({
   font-size: 20px;
   font-width: 400;
   background-color: ${buttonColor};
+  color: ${buttonTextColor}
   }`;
   return (
     <>

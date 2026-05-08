@@ -1,13 +1,14 @@
 import Panel from "../../Panel/Panel";
 import AccountInfo from "./AccountInfo/AccountInfo";
 import PrivacyInfo from "./PrivacyInfo/PrivacyInfo";
-const ProfileSettings = () => {
+import "./styles.css";
+const ProfileSettings = ({ userEmail }) => {
   return (
     <>
       <Panel panelHeader={"Настройки"}>
         <AccountInfo
           accountSettingName={"Адрес электронной почты"}
-          accountSettingValue={"example@mail.com"}
+          accountSettingValue={userEmail || "example@mail.com"}
         />
         <AccountInfo
           accountSettingName={"Пароль"}
@@ -15,8 +16,10 @@ const ProfileSettings = () => {
         />
         <div className="privacy-settings">
           <div className="privacy-setting__name">Настройки приватности</div>
-          <PrivacyInfo documentName={"Политика конфиденциальности"} />
-          <PrivacyInfo documentName={"Условия использования"} />
+          <div className="privacy-documents">
+            <PrivacyInfo documentName={"Политика конфиденциальности"} />
+            <PrivacyInfo documentName={"Условия использования"} />
+          </div>
         </div>
       </Panel>
     </>

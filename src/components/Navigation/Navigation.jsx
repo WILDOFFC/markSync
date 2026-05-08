@@ -1,14 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "./styles.css";
-const Navigation = () => {
+const Navigation = ({ isActive }) => {
   return (
     <>
-      <nav className="nav-bar">
-        <div className="logo">
-          <NavLink to="/">
-            <img src="/markSyncSmall.svg" />
-          </NavLink>
-        </div>
+      <nav className="nav-bar" style={{ display: isActive ? "block" : "none" }}>
         <ul className="nav-list">
           <li>
             <NavLink

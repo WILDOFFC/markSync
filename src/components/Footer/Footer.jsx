@@ -3,6 +3,7 @@ import "./styles.css";
 import telegram from "./../../assets/icons/tg.svg";
 import vk from "./../../assets/icons/vk.svg";
 import reddit from "./../../assets/icons/reddit.svg";
+import wayn from "./../../assets/icons/wayn.svg";
 
 const Footer = () => {
   return (
@@ -43,11 +44,13 @@ const Footer = () => {
                 className="social-network__logo"
               />
             </li>
-            <img
-              src={telegram}
-              alt="логотип телеграм"
-              className="social-network__logo"
-            />
+            <li>
+              <img
+                src={wayn}
+                alt="логотип wayn"
+                className="social-network__logo"
+              />
+            </li>
           </ul>
         </div>
       </footer>

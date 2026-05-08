@@ -1,3 +1,28 @@
 {
-  "users": [{ "id": 1, "email": "dddd@gmail.com", "password": "adsdasdasd" }]
+  "users": [
+    {
+      "id": "1",
+      "email": "dddd@gmail.com",
+      "password": "adsdasdasd"
+    },
+    {
+      "email": "dsadsad@gmail.com",
+      "salt": "$2b$10$Mh0ucT/36.Y7dEveXIRSsO",
+      "password_hash": "$2b$10$Mh0ucT/36.Y7dEveXIRSsOJ65S.M6qtyfVBx20I5llsUTXBze/aze",
+      "id": "x2NQIuZaGRA"
+    },
+    {
+      "email": "dasdsada@gmail.com",
+      "salt": "$2b$10$6P.KSQNXgFt/0N9dMMfbUu",
+      "password_hash": "$2b$10$6P.KSQNXgFt/0N9dMMfbUucwB3APRi173i1nnrXSacJWAP2XXMtnW",
+      "id": "OW27nJLLPJw"
+    },
+    {
+      "email": "admin@gmail.com",
+      "salt": "$2b$10$Z.e/oF79yi3zHdRR8d9Z8u",
+      "password_hash": "$2b$10$Z.e/oF79yi3zHdRR8d9Z8uBtteD3rkpJseB1vV8tmmCvbBJlFqAey",
+      "id": "1PpogJLA_vY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

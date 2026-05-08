@@ -1,6 +1,7 @@
 import "./styles.css";
 import ProductCard from "./../ProductCard/ProductCard.jsx";
 import DashboardPanel from "../../Dashboard/DashboardComponents/DashboardPanel/DashboardPanel.jsx";
+import ProductPreview from "./../../../assets/media/productPreview.jpg";
 
 const ProductsList = () => {
   return (
@@ -13,6 +14,7 @@ const ProductsList = () => {
               productName={"Материнская плата MSI"}
               productMarketplaces={"Ozon, Wildberries"}
               productPrice={"11000р"}
+              productPreview={ProductPreview}
             />
           </li>
           <li>
@@ -21,6 +23,7 @@ const ProductsList = () => {
               productName={"Материнская плата MSI"}
               productMarketplaces={"Ozon, Wildberries"}
               productPrice={"11000р"}
+              productPreview={ProductPreview}
             />
           </li>
           <li>
@@ -29,6 +32,7 @@ const ProductsList = () => {
               productName={"Материнская плата MSI"}
               productMarketplaces={"Ozon, Wildberries"}
               productPrice={"11000р"}
+              productPreview={ProductPreview}
             />
           </li>
           <li>
@@ -37,6 +41,7 @@ const ProductsList = () => {
               productName={"Материнская плата MSI"}
               productMarketplaces={"Ozon, Wildberries"}
               productPrice={"11000р"}
+              productPreview={ProductPreview}
             />
           </li>
           <li>
@@ -45,6 +50,7 @@ const ProductsList = () => {
               productName={"Материнская плата MSI"}
               productMarketplaces={"Ozon, Wildberries"}
               productPrice={"11000р"}
+              productPreview={ProductPreview}
             />
           </li>
         </ul>

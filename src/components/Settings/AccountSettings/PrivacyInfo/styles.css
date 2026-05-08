@@ -1,0 +1,33 @@
+.privacy-document {
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+  padding-left: 15px;
+
+  align-items: center;
+
+  width: 33rem;
+}
+
+.document-link {
+  font-size: 16px;
+  font-weight: bold;
+
+  background-color: var(--white);
+  color: var(--blue);
+
+  width: fit-content;
+  height: 100%;
+
+  padding: 7px;
+
+  border-radius: 4px;
+
+  margin-left: 20px;
+}
+
+.privacy-documents {
+  display: flex;
+  flex-flow: column wrap;
+}
